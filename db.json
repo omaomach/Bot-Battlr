@@ -49,30 +49,6 @@
       "updated_at": "2018-10-02T19:55:10.887Z"
     },
     {
-      "id": 107,
-      "name": "XSf-63",
-      "health": 97,
-      "damage": 26,
-      "armor": 58,
-      "bot_class": "Support",
-      "catchphrase": "0010110001011100111100101010101000",
-      "avatar_url": "https://robohash.org/accusantiumetfacilis.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:10.899Z",
-      "updated_at": "2018-10-02T19:55:10.899Z"
-    },
-    {
-      "id": 108,
-      "name": "m-76",
-      "health": 65,
-      "damage": 90,
-      "armor": 38,
-      "bot_class": "Assault",
-      "catchphrase": "1101111100001011111011011001011110010000",
-      "avatar_url": "https://robohash.org/blanditiisautlaudantium.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:10.915Z",
-      "updated_at": "2018-10-02T19:55:10.915Z"
-    },
-    {
       "id": 109,
       "name": "hjk-40",
       "health": 75,
@@ -109,18 +85,6 @@
       "updated_at": "2018-10-02T19:55:11.017Z"
     },
     {
-      "id": 112,
-      "name": "jDn-31",
-      "health": 52,
-      "damage": 93,
-      "armor": 36,
-      "bot_class": "Assault",
-      "catchphrase": "00010011100010000010110100001001010000101001",
-      "avatar_url": "https://robohash.org/eiusautnihil.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.032Z",
-      "updated_at": "2018-10-02T19:55:11.032Z"
-    },
-    {
       "id": 113,
       "name": "x-27",
       "health": 80,
@@ -143,18 +107,6 @@
       "avatar_url": "https://robohash.org/autsaepeeveniet.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.062Z",
       "updated_at": "2018-10-02T19:55:11.062Z"
-    },
-    {
-      "id": 115,
-      "name": "qr-06",
-      "health": 92,
-      "damage": 37,
-      "armor": 57,
-      "bot_class": "Captain",
-      "catchphrase": "010101111110111111010010110100101111100",
-      "avatar_url": "https://robohash.org/consecteturveritatisid.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.093Z",
-      "updated_at": "2018-10-02T19:55:11.093Z"
     },
     {
       "id": 116,
@@ -203,18 +155,6 @@
       "avatar_url": "https://robohash.org/repellendusporrosint.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:11.191Z",
       "updated_at": "2018-10-02T19:55:11.191Z"
-    },
-    {
-      "id": 120,
-      "name": "\\-86",
-      "health": 56,
-      "damage": 39,
-      "armor": 82,
-      "bot_class": "Defender",
-      "catchphrase": "001000111101100001000010000010000001000101",
-      "avatar_url": "https://robohash.org/ipsamexercitationemrem.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:11.203Z",
-      "updated_at": "2018-10-02T19:55:11.203Z"
     },
     {
       "id": 121,

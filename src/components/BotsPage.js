@@ -34,9 +34,6 @@ function BotsPage() {
   function deleteBotFromCollection(bot) {
     fetch(`http://localhost:8002/bots/${bot.id}`, {
       method: "DELETE",
-      headers: {
-        "content-type": "application/json",
-      },
     })
     setMonitorCollection(true)
 }

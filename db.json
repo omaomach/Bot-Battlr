@@ -25,30 +25,6 @@
       "updated_at": "2018-10-02T19:55:10.827Z"
     },
     {
-      "id": 103,
-      "name": "P-24",
-      "health": 88,
-      "damage": 25,
-      "armor": 60,
-      "bot_class": "Witch",
-      "catchphrase": "1100101001110111110010011010110",
-      "avatar_url": "https://robohash.org/idetcumque.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:10.844Z",
-      "updated_at": "2018-10-02T19:55:10.844Z"
-    },
-    {
-      "id": 104,
-      "name": "qq-69",
-      "health": 74,
-      "damage": 29,
-      "armor": 95,
-      "bot_class": "Defender",
-      "catchphrase": "00011101001001000000101100001100110",
-      "avatar_url": "https://robohash.org/corruptieaqueexcepturi.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:10.856Z",
-      "updated_at": "2018-10-02T19:55:10.856Z"
-    },
-    {
       "id": 105,
       "name": "G`t-65",
       "health": 62,
@@ -1151,54 +1127,6 @@
       "avatar_url": "https://robohash.org/nulladoloratque.png?size=300x300&set=set1",
       "created_at": "2018-10-02T19:55:12.487Z",
       "updated_at": "2018-10-02T19:55:12.487Z"
-    },
-    {
-      "id": 197,
-      "name": "LvH-26",
-      "health": 84,
-      "damage": 26,
-      "armor": 55,
-      "bot_class": "Support",
-      "catchphrase": "11111100001011110000010011111100111100",
-      "avatar_url": "https://robohash.org/commodiidasperiores.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:12.503Z",
-      "updated_at": "2018-10-02T19:55:12.503Z"
-    },
-    {
-      "id": 198,
-      "name": "wr-00",
-      "health": 67,
-      "damage": 84,
-      "armor": 32,
-      "bot_class": "Assault",
-      "catchphrase": "111110001100001011101010110011111001000001",
-      "avatar_url": "https://robohash.org/dictasolutanatus.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:12.512Z",
-      "updated_at": "2018-10-02T19:55:12.512Z"
-    },
-    {
-      "id": 199,
-      "name": "z-06",
-      "health": 41,
-      "damage": 27,
-      "armor": 81,
-      "bot_class": "Defender",
-      "catchphrase": "0101101100101100001100110000101001111010111",
-      "avatar_url": "https://robohash.org/sedhicquo.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:12.525Z",
-      "updated_at": "2018-10-02T19:55:12.525Z"
-    },
-    {
-      "id": 200,
-      "name": "fb-83",
-      "health": 88,
-      "damage": 38,
-      "armor": 68,
-      "bot_class": "Captain",
-      "catchphrase": "0111100000101111011000110101110111110000",
-      "avatar_url": "https://robohash.org/teneturquaereiciendis.png?size=300x300&set=set1",
-      "created_at": "2018-10-02T19:55:12.537Z",
-      "updated_at": "2018-10-02T19:55:12.537Z"
     }
   ]
 }

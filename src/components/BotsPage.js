@@ -1,16 +1,52 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import YourBotArmy from "./YourBotArmy";
 import BotCollection from "./BotCollection";
 
 function BotsPage() {
-  //start here with your code for step one
+  
+  const [botsPage, setBotsPage] = useState([])
+  const [botsArmy, setBotsArmy] = useState([])
+  const [monitorCollection, setMonitorCollection] = useState(false)
+
+  useEffect(() => {
+    fetch("http://localhost:8002/bots")
+    .then((res) => res.json())
+    .then((bots) => {
+      setBotsPage(bots)
+    })
+  }, [monitorCollection])
+
+  function addToBotArmy(bot) {
+    const updatedArmy = botsArmy.find((robot) => robot.id === bot.id)
+    if (!updatedArmy) setBotsArmy([...botsArmy, bot])
+
+  }
+
+  function removeBotFromArmy(bot) {
+    const updatedArmy = botsArmy.find((robot) => robot.id === bot.id)
+    if (updatedArmy) {
+      setBotsArmy(
+        botsArmy.filter((robots) => robots.id !== bot.id)
+      )
+    }
+  }
+
+  function deleteBotFromCollection(bot) {
+    fetch(`http://localhost:8002/bots/${bot.id}`, {
+      method: "DELETE",
+      headers: {
+        "content-type": "application/json",
+      },
+    })
+    setMonitorCollection(true)
+}
 
   return (
     <div>
-      <YourBotArmy />
-      <BotCollection />
+      <YourBotArmy botsArmy={botsArmy} onRemoveBotFromArmy={removeBotFromArmy}/>
+      <BotCollection botsPage={botsPage} onAddBotArmy={addToBotArmy} onDeleteBotFromCollection = {deleteBotFromCollection}/>
     </div>
   )
 }
 
-export default BotsPage;
+export default BotsPage
